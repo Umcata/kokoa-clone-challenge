@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 97vw;
+  height: 3vh;
+  font-weight: 600;
+  background-color: #e3dbce;
+  transform: translateX(-1vw);
+  box-sizing: border-box;
+}
+.headerRight {
+  display: flex;
+}
+.headerRight span {
+  margin-left: 0.8vw;
+}
+.battery {
+  display: block;
+  transform: rotate(0.75turn);
+}
+
+.underheader {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: 5vw;
+}
+.underLeft span {
+  font-weight: 600;
+}
+
+.underRight span {
+  padding-left: 4vw;
+}
+.underRight span:nth-child(2) {
+  padding-left: 6vw;
+}

@@ -1,0 +1,45 @@
+@import "reset.css";
+@import "header.css";
+@import "friend.css";
+@import "navibar.css";
+@import "chats.css";
+@import "chatmyself.css";
+@import "view.css";
+@import "more.css";
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #e3dbce;
+  display: flex;
+  flex-direction: column;
+  padding: 0vh 3vw;
+}
+.hidden {
+  display: none;
+}
+
+.poseul {
+  position: fixed;
+  z-index: -1;
+  right: 5%;
+  bottom: 10%;
+}
+
+.tooBig {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: #e3dbce;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0;
+}
+
+@media screen and (min-width: 500px) and (max-width: 610px) {
+  .tooBig {
+    display: none;
+  }
+}

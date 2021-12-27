@@ -1,0 +1,53 @@
+.mychat {
+  margin-top: 4vh;
+  padding-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mychatInfo {
+  display: flex;
+  align-items: center;
+}
+.mychatInfoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 5vh;
+  font-size: 3vw;
+  margin-left: 2vw;
+  color: #a79182;
+}
+.chattext {
+  font-size: 2.2vw;
+}
+.mychatInfoTextName {
+  color: #533d2d;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.na {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  font-size: 2.5vw;
+  color: white;
+  margin-right: 1vw;
+  background-color: #533d2d;
+}
+.chatdate {
+  color: #a79182;
+  font-size: 2vw;
+}
+.datecontain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.chatspace {
+  height: 3vh;
+}

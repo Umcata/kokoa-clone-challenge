@@ -1,0 +1,39 @@
+.myInfo {
+  margin-top: 4vh;
+  padding-bottom: 2vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5vw solid #a88e7d;
+}
+.myInfo span {
+  margin-left: 3vw;
+  font-size: 3.5vw;
+}
+
+.friendAct {
+  margin-top: 2.5vh;
+  display: flex;
+  justify-content: space-between;
+}
+.friendman1 {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+}
+.friendman1 span {
+  margin-left: 2.5vw;
+}
+.friendman1 img {
+  width: 9vw;
+}
+.friendman2 {
+  margin-top: 2vh;
+  display: flex;
+  align-items: center;
+}
+.friendman2 span {
+  margin-left: 2.5vw;
+}
+.friendman2 img {
+  width: 9vw;
+}

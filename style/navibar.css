@@ -1,0 +1,16 @@
+.navipic img {
+  width: 10vw;
+  height: 8vw;
+}
+
+.navigationbar {
+  position: fixed;
+  bottom: 0%;
+  background-color: #f7efe2;
+  transform: translateX(-3vw);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 6vh;
+}
